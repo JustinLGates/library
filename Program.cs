@@ -2,11 +2,11 @@
 
 namespace library
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      Controller controller = new Controller();
     }
+  }
 }
